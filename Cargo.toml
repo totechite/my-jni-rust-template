@@ -1,0 +1,11 @@
+[package]
+name = "greetings"
+version = "0.0.1"
+authors = ["totechite <yutan.h9@gmail.com>"]
+
+[target.'cfg(target_os="android")'.dependencies]
+jni = { version = "0.11", default-features = false }
+
+[lib]
+name = "greetings"
+crate-type = ["cdylib"]
