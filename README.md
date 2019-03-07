@@ -1,2 +1,2 @@
 # my-jni-rust-template
-a template of rust project what using jni.
+a template of rust project what used jni.
